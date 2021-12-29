@@ -1,7 +1,16 @@
 ## Introduction
 
 Used for Android platform to generate difference package patch of two files or use version file and patch to synthesize a new file
-
+### Steps for usage
+    allprojects {
+        repositories {
+            ...
+            maven { url 'https://jitpack.io' }
+        }
+    }
+    dependencies {
+        implementation 'com.github.zhanglibo1993:bsdiff:main-f5b622065a-1'
+    }
 ### Related methods
 
 ##### public static native int bsDiff(String oldPath,String newPath,String diffPath);
