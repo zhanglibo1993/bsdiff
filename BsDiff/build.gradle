@@ -1,8 +1,5 @@
-plugins {
- id 'com.android.library'
-}
-//apply plugin: 'com.github.dcendents.android-maven'
-//group='com.github.zhanglibo1993'
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
 android {
     compileSdk 30
 
